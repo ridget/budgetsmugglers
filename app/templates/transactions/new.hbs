@@ -1,0 +1,7 @@
+<form>
+
+    {{input type="text" placeholder="Enter new transaction name" value=name}}
+    {{transaction-input placeholder="Enter new transaction amount" value=amount}}
+    <input type="button" value="Save" class="btn btn-primary" {{action 'save' this}}>
+
+</form>
